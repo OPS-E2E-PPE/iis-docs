@@ -31,7 +31,9 @@
       "build_source_folder": "iis",
       "build_output_subfolder": "e2eppe-IIS",
       "locale": "en-us",
-      "xref_query_tags": ["/dotnet"],
+      "xref_query_tags": [
+        "/dotnet"
+      ],
       "version": 0,
       "open_to_public_contributors": true,
       "type_mapping": {
@@ -58,5 +60,11 @@
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "master"
     }
-  ]
+  ],
+  "docs_build_engine": {
+    "name": "docfx_v3"
+  },
+  "feature_flags": {
+    "use_v2_github_user_cache": true
+  }
 }

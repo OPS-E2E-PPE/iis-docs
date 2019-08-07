@@ -2,6 +2,20 @@
   "build_entry_point": "docs",
   "docsets_to_publish": [
     {
+      "docset_name": "e2eppe-IIS",
+      "build_source_folder": "iis",
+      "build_output_subfolder": "e2eppe-IIS",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
       "docset_name": "IIS",
       "build_source_folder": "iis",
       "build_output_subfolder": "IIS",
